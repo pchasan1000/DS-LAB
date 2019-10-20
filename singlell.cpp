@@ -176,6 +176,7 @@ class Linkedlist
                         }
                         p->next=t->next;
                         delete t;
+                        t = p;
                       
                     }
                     t=t->next;
